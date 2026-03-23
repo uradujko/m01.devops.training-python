@@ -27,6 +27,7 @@ blocks:
       jobs:
         - name: ✨ Lint and Format
           commands:
+            - cache restore
             - make lint
   - name: "\U0001F9EA Test Suite"
     dependencies:
